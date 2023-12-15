@@ -9,3 +9,6 @@ seed:
 
 test:
 	./vendor/bin/sail artisan test
+
+list:
+	./vendor/bin/sail artisan route:list
